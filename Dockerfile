@@ -23,6 +23,8 @@ EXPOSE 5000
 # Set environment variables
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=production
+ENV PORT=5000
+ENV HOST=0.0.0.0
 
-# Run the application
-CMD ["flask", "run", "--host=0.0.0.0"] 
+# Run the application with gunicorn
+CMD ["gunicorn", "--bind", "0.0.0.0:5000", "app:app"] 
