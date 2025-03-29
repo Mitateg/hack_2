@@ -1,5 +1,6 @@
-# Environment variables
-.env
+# Git
+.git
+.gitignore
 
 # Python
 __pycache__/
@@ -39,5 +40,9 @@ ENV/
 Thumbs.db
 
 # Docker
-.docker/
-docker-compose.override.yml 
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Environment variables
+.env 
