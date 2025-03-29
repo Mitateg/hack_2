@@ -65,7 +65,10 @@ h1 {
     padding: 1rem;
     border-radius: 15px;
     font-size: 1rem;
-    line-height: 1.4;
+    line-height: 1.5;
+    text-align: justify;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
 
 .ai-message .message-content {
