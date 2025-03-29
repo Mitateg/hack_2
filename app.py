@@ -50,7 +50,7 @@ def chat():
                 {"role": "system", "content": STEFAN_PROMPT},
                 {"role": "user", "content": user_message}
             ],
-            max_tokens=100,  # Increased from 200 to 500
+            max_tokens=170, # Increased from 200 to 500
             temperature=0.7
         )
         
